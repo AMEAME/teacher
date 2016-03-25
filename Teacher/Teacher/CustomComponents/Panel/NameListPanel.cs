@@ -87,11 +87,18 @@ namespace Teacher.Panel
         private void newNameButton1_Click(object sender, EventArgs e)
         {
             Form2 form = new Form2();
+            if (this.Students == null)
+            {
+                this.Students = new List<Student>();
+            }
             form.Students = this.Students;
+            int beforetCount = this.Students.Count;
             form.ShowDialog();
-            this.Students = form.Students;
+            if (beforetCount + 1 == form.Students.Count)
+            {
+                addButton();
+            }
             form.Dispose();
-            addButton();
             setButtonLocation();
         }
 

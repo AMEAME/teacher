@@ -32,7 +32,6 @@ namespace Teacher.Forms
             if (!File.Exists(Form1.StudentsFileName))
             {
                 Directory.CreateDirectory(Form1.StudentsFileName.Split('/')[0]);
-                Students = new List<Student>();
             }
             Students.Add(new Student(Students.Count + 1, this.textBox1.Text));
             XMLAccesser<List<Student>> xmlAccesser = new XMLAccesser<List<Student>>(Students);
