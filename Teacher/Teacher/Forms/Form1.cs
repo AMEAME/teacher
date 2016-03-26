@@ -12,7 +12,7 @@ namespace Teacher
         public static string StudentsFileName;
 
         public Form1()
-        { 
+        {
             InitializeStudent();
             InitializeComponent();
             this.nameListPanel1.SetStudents(this.Students);
