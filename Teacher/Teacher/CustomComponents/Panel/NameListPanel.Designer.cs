@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Teacher.Panel
+namespace Teacher.CustomComponents.Panel
 {
     partial class NameListPanel
     {

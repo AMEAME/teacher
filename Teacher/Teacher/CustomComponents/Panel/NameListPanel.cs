@@ -5,12 +5,12 @@ using System.Windows.Forms;
 using Teacher.Forms;
 using Teacher.Modules;
 
-namespace Teacher.Panel
+namespace Teacher.CustomComponents.Panel
 {
     public partial class NameListPanel : UserControl
     {
         public List<Student> Students { get; set; }
-        public List<Button> StudentButtonList { get; set; }
+        public List<System.Windows.Forms.Button> StudentButtonList { get; set; }
 
         private Size ButtonSize;
 
@@ -22,7 +22,7 @@ namespace Teacher.Panel
         public void SetStudents(List<Student> students)
         {
             this.Students = students;
-            StudentButtonList = new List<Button>();
+            StudentButtonList = new List<System.Windows.Forms.Button>();
             ButtonSize = new Size(150, 70);
             createButton();
         }
@@ -59,7 +59,7 @@ namespace Teacher.Panel
             {
                 for (int i = 0; i < Students.Count; i++)
                 {
-                    Button button = new Button();
+                    System.Windows.Forms.Button button = new System.Windows.Forms.Button();
                     button.Size = ButtonSize;
                     button.BackColor = Color.LightCyan;
                     button.ForeColor = Color.Black;
@@ -74,7 +74,7 @@ namespace Teacher.Panel
 
         private void addButton()
         {
-            Button button = new Button();
+            System.Windows.Forms.Button button = new System.Windows.Forms.Button();
             button.Size = ButtonSize;
             button.BackColor = Color.LightCyan;
             button.ForeColor = Color.Black;

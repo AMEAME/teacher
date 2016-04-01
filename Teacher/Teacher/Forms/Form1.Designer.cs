@@ -1,4 +1,4 @@
-﻿namespace Teacher
+﻿namespace Teacher.Forms
 {
     partial class Form1
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.nameListPanel1 = new Teacher.Panel.NameListPanel();
+            this.nameListPanel1 = new Teacher.CustomComponents.Panel.NameListPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.menuButton3 = new Teacher.CustomComponents.Button.MenuButton();
             this.menuButton2 = new Teacher.CustomComponents.Button.MenuButton();
@@ -44,19 +44,18 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(495, 331);
+            this.panel1.Size = new System.Drawing.Size(371, 287);
             this.panel1.TabIndex = 0;
             // 
             // nameListPanel1
             // 
             this.nameListPanel1.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.nameListPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nameListPanel1.Location = new System.Drawing.Point(205, 0);
-            this.nameListPanel1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.nameListPanel1.Location = new System.Drawing.Point(154, 0);
+            this.nameListPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nameListPanel1.Name = "nameListPanel1";
-            this.nameListPanel1.Size = new System.Drawing.Size(290, 331);
+            this.nameListPanel1.Size = new System.Drawing.Size(217, 287);
             this.nameListPanel1.StudentButtonList = null;
             this.nameListPanel1.Students = null;
             this.nameListPanel1.TabIndex = 1;
@@ -69,20 +68,20 @@
             this.panel2.Controls.Add(this.menuButton1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(205, 331);
+            this.panel2.Size = new System.Drawing.Size(154, 287);
             this.panel2.TabIndex = 0;
             // 
             // menuButton3
             // 
             this.menuButton3.ButtonText = "自動採点";
-            this.menuButton3.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.menuButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.menuButton3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.menuButton3.Location = new System.Drawing.Point(4, 164);
+            this.menuButton3.Location = new System.Drawing.Point(3, 142);
             this.menuButton3.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.menuButton3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.menuButton3.Name = "menuButton3";
-            this.menuButton3.Size = new System.Drawing.Size(193, 58);
+            this.menuButton3.Size = new System.Drawing.Size(145, 50);
             this.menuButton3.TabIndex = 1;
             this.menuButton3.TextLocation = new System.Drawing.Point(10, 10);
             // 
@@ -91,11 +90,10 @@
             this.menuButton2.ButtonText = "Schedule";
             this.menuButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.menuButton2.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            this.menuButton2.Location = new System.Drawing.Point(4, 91);
+            this.menuButton2.Location = new System.Drawing.Point(3, 79);
             this.menuButton2.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.menuButton2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.menuButton2.Name = "menuButton2";
-            this.menuButton2.Size = new System.Drawing.Size(192, 58);
+            this.menuButton2.Size = new System.Drawing.Size(144, 50);
             this.menuButton2.TabIndex = 1;
             this.menuButton2.TextLocation = new System.Drawing.Point(10, 10);
             // 
@@ -104,17 +102,16 @@
             this.menuButton1.ButtonText = "Name list";
             this.menuButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.menuButton1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            this.menuButton1.Location = new System.Drawing.Point(4, 14);
+            this.menuButton1.Location = new System.Drawing.Point(3, 12);
             this.menuButton1.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.menuButton1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.menuButton1.Name = "menuButton1";
-            this.menuButton1.Size = new System.Drawing.Size(192, 58);
+            this.menuButton1.Size = new System.Drawing.Size(144, 50);
             this.menuButton1.TabIndex = 0;
             this.menuButton1.TextLocation = new System.Drawing.Point(10, 10);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = global::Teacher.Properties.Settings.Default.MySize;
@@ -122,7 +119,6 @@
             this.DataBindings.Add(new System.Windows.Forms.Binding("Location", global::Teacher.Properties.Settings.Default, "MyLocatiton", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(248)))), ((int)(((byte)(238)))));
             this.Location = global::Teacher.Properties.Settings.Default.MyLocatiton;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "先生支援ツール";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
@@ -138,7 +134,7 @@
         private System.Windows.Forms.Panel panel2;
         private Teacher.CustomComponents.Button.MenuButton menuButton1;
         private Teacher.CustomComponents.Button.MenuButton menuButton2;
-        private Panel.NameListPanel nameListPanel1;
+        private CustomComponents.Panel.NameListPanel nameListPanel1;
         private CustomComponents.Button.MenuButton menuButton3;
     }
 }

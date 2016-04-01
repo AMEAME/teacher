@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace Teacher
+namespace Teacher.CustomComponents.Button
 {
     public partial class BaseButton: UserControl
     {

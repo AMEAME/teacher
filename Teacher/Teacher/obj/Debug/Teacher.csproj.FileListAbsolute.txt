@@ -7,6 +7,7 @@ C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Properties.R
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.csproj.GenerateResource.Cache
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.exe
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.pdb
-C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.BaseButton.resources
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Forms.Form2.resources
-C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Panel.NameListPanel.resources
+C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Panel.AutoCheckPanel.resources
+C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Button.BaseButton.resources
+C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Panel.NameListPanel.resources

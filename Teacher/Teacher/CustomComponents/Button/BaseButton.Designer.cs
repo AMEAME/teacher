@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Teacher
+namespace Teacher.CustomComponents.Button
 {
     partial class BaseButton
     {

@@ -4,7 +4,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using Teacher.Modules;
 
-namespace Teacher
+namespace Teacher.Forms
 {
     public partial class Form1 : Form
     {

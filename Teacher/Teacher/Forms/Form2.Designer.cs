@@ -1,4 +1,6 @@
-﻿namespace Teacher.Forms
+﻿using Teacher.CustomComponents.Button;
+
+namespace Teacher.Forms
 {
     partial class Form2
     {
@@ -30,7 +32,7 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.baseButton1 = new Teacher.BaseButton();
+            this.baseButton1 = new Teacher.CustomComponents.Button.BaseButton();
             this.SuspendLayout();
             // 
             // textBox1
