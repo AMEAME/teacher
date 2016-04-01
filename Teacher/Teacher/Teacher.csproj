@@ -52,6 +52,12 @@
     <Compile Include="CustomComponents\Button\NewNameButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="CustomComponents\Panel\AutoCheckPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomComponents\Panel\AutoCheckPanel.Designer.cs">
+      <DependentUpon>AutoCheckPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Modules\XMLAccesser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomComponents\Panel\AutoCheckPanel.resx">
+      <DependentUpon>AutoCheckPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
