@@ -2,7 +2,6 @@ C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\bin\Debug\Teacher.exe.config
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\bin\Debug\Teacher.exe
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\bin\Debug\Teacher.pdb
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.csprojResolveAssemblyReference.cache
-C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Form1.resources
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Properties.Resources.resources
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.csproj.GenerateResource.Cache
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.exe
@@ -11,3 +10,4 @@ C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Forms.Form2.
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Panel.AutoCheckPanel.resources
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Button.BaseButton.resources
 C:\Users\Ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.CustomComponents.Panel.NameListPanel.resources
+C:\Users\ike\Source\Repos\teacher\Teacher\Teacher\obj\Debug\Teacher.Forms.Form1.resources
